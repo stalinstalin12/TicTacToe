@@ -1,0 +1,35 @@
+*{  box-sizing: border-box;
+   
+}
+
+
+.square{
+    background-color: rgb(199, 30, 30);
+    height: 40px;
+    font-weight: bold;
+    font-style: italic;
+    font-size: large;
+    color: rgb(255, 170, 13);
+    width: 40px;
+    border: 1px solid black;
+}
+.square:hover{
+    background-color: yellow;
+    color: rgb(209, 5, 5);
+}
+.square:active{
+    background-color: yellow;
+}
+.board{
+    
+    margin: auto;
+    height: 40vh;
+    padding: 8vh;
+    width: 30vw;
+    background-color: rgb(7, 7, 7);
+    text-align: center;
+}
+.board-row{
+    justify-content: center;  
+    display: flex;
+}
