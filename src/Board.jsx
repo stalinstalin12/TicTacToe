@@ -24,10 +24,10 @@ export default function Board(){
       const winner=calculateWinner(squares);
       let status;
       if(winner){
-        status="winner :"+winner;
+        status="WINNER :"+winner;
       }
       else{
-        status='next player'+ (xIsNext?'X':'O');
+        status='NEXT PLAYER :'+ (xIsNext?'X':'O');
       }
 
 return(
